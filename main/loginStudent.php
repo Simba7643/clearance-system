@@ -135,5 +135,24 @@ include 'dbconn.php'; // ✅ Must come before any HTML output or echo
     <source src="photo/ad.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
+ <!-- Login Box -->
+  <div class="login-box">
+    <h2>Student Login</h2>
+    <form action="loginStudent2.php" method="POST">
+      <input type="text" name="student_id" placeholder="Student ID" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+
+    <div class="footer-text">
+      &copy; 2025 Debre Birhan University
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
 
  
